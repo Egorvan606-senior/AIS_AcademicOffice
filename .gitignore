@@ -1,0 +1,26 @@
+# .NET build artifacts at every depth
+[Bb]in/
+[Oo]bj/
+# IDE state
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Local databases and logs
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite-journal
+*.db
+*.log
+# OS files
+.DS_Store
+Thumbs.db
+# Local secrets and private data
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+private-data/
